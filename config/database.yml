@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf8
+  database: kickr_dev
+  host: localhost
+  pool: 5
+  username: cloudaccess
+  password: keepitonthelow
+  
+development:
+  database: kickr_dev
+  <<: *defaults
+  
+test:
+  database: kickr_test_amateur
+  <<: *defaults
+  
+production:
+  database: kickr_pro
+  <<: *defaults

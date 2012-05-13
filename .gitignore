@@ -1,0 +1,14 @@
+# Ignore Nginx and Unicorn config and logs.
+/config/nginx.conf
+/config/unicorn.rb
+/unicorn/*.log
+
+# Ignore some database configs
+/config/mysqldatabase.yml
+/config/pastpostgresqldatabase.yml
+/db/*.sqlite3
+
+# Ignore bundler config and other log/tempfiles.
+/.bundle
+/log/*.log
+/tmp
