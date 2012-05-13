@@ -1,6 +1,5 @@
 ##Sinatra or Rails, that is the question, 
-Whether 'tis Nobler in the mind to suffer,
-The Slings and Arrows of outrageous Fortune,
+Whether 'tis Nobler in the mind to suffer the Slings and Arrows of outrageous Fortune, <br/>
 Or to take Arms against a Sea of troubles,
 And by opposing end them: to die, to sleep
 No more; and by a sleep, to say we end
